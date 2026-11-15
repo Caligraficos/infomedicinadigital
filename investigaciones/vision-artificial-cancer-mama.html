@@ -8,22 +8,30 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="research.css">
 </head>
 <body>
+<div class="rx-progress" aria-hidden="true"></div>
 <header class="site-header">
   <div class="container nav">
     <a class="logo" href="../index.html">Infomedicina <span>Digital</span></a>
-    <a class="btn btn-outline btn-small" href="../index.html#temas">← Todas las investigaciones</a>
-  </div>
-</header>
-<main class="page-content">
-  <div class="container">
-    <h1>Uso de algoritmos de visión artificial para la cuantificación de biomarcadores en el cáncer de mama</h1>
-    <p class="subtitle">Resumen y contenido en preparación.</p>
-    <div class="article-body">
-      <p>Aquí irá el contenido de esta investigación: resumen, objetivos, metodología, resultados y conclusiones.</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <a class="btn btn-outline btn-small" href="../index.html#temas">← Investigaciones</a>
+      <a class="btn btn-outline btn-small" href="../index.html#inicio">Inicio</a>
     </div>
   </div>
+</header>
+<main>
+  <section class="rx-hero">
+    <div class="rx-wrap">
+      <span class="kicker">Investigación · Cátedra de Informática</span>
+      <h1>Uso de algoritmos de visión artificial para la cuantificación de biomarcadores en el cáncer de mama</h1>
+      <p class="rx-lead">Cómo la inteligencia artificial puede contar células de una biopsia con la misma precisión cada vez, en segundos.</p>
+      <p class="rx-meta">Valeria V. Fuenmayor G. · Kamila García N. · Dra. Roraxy Fonseca · Universidad del Zulia · Facultad de Medicina · Maracaibo, septiembre 2026</p>
+    </div>
+  </section>
+  <section class="rx-sec reveal "><div class="rx-wrap"><h2 class="rx-h">El problema</h2><div class="prose"><p>El análisis histopatológico manual implica evaluar miles de células por lámina. Esto genera carga laboral, fatiga visual y variación de criterios entre patólogos.</p><p>Las consecuencias para la paciente pueden ser la asignación de tratamientos no dirigidos, la exposición innecesaria a terapias agresivas y la pérdida de oportunidades terapéuticas clave.</p></div></div></section><section class="rx-sec reveal "><div class="rx-wrap"><h2 class="rx-h">Pregunta y objetivos</h2><div class="prose"><p>¿De qué manera el uso de algoritmos de <span class="kw">visión artificial</span> ayuda a mejorar la precisión y la exactitud al contar biomarcadores en biopsias de cáncer de mama?</p></div></div></section><section class="rx-sec reveal "><div class="rx-wrap"><ul class="rx-list"><li style="--d:0.00s">Detallar los biomarcadores: receptores hormonales (RE/RP), <span class="kw">HER2</span> y <span class="kw">Ki-67</span>.</li><li style="--d:0.08s">Explicar el procesamiento: escaneo de imágenes <span class="kw">WSI</span>, segmentación celular y medición de marcadores.</li><li style="--d:0.16s">Comparar el desempeño computacional frente al análisis manual.</li></ul></div></section><section class="rx-sec reveal "><div class="rx-wrap"><h2 class="rx-h">Biomarcadores clave</h2><div class="cards"><article class="rx-card" style="--d:0.00s"><h3>RE / RP</h3><p>Receptores de estrógeno y progesterona. Indican si la paciente es apta para terapia hormonal.</p></article><article class="rx-card" style="--d:0.10s"><h3>HER2</h3><p>Sobreexpresión de la proteína del receptor del factor de crecimiento epidérmico. Guía el uso de anticuerpos monoclonales.</p></article><article class="rx-card" style="--d:0.20s"><h3>Ki-67</h3><p>Indicador nuclear de proliferación celular. Define la velocidad de división del tumor y su agresividad.</p></article></div></div></section><section class="rx-sec reveal "><div class="rx-wrap"><h2 class="rx-h">Cómo trabaja la IA</h2><div class="flow"><div class="step" style="--d:0.00s"><span class="step-n">1</span><p>Digitalización: escaneo <span class="kw">WSI</span> de la lámina completa</p></div><div class="step" style="--d:0.15s"><span class="step-n">2</span><p>Preprocesamiento: normalización de color</p></div><div class="step" style="--d:0.30s"><span class="step-n">3</span><p>Segmentación: detección de núcleos celulares</p></div><div class="step" style="--d:0.45s"><span class="step-n">4</span><p>Cuantificación: puntaje del biomarcador</p></div></div></div></section><section class="rx-sec reveal "><div class="rx-wrap"><h2 class="rx-h">Resultados</h2><div class="bars"><div class="bar-row"><div class="bar-head"><span>Concordancia con patólogos expertos en Ki-67 y HER2</span><span class="bar-val">&gt;90%</span></div><div class="bar-track"><div class="bar-fill" style="--w:90%;--i:0"></div></div></div><div class="bar-row"><div class="bar-head"><span>Criterio estable, libre de sesgos por fatiga</span><span class="bar-val">100%</span></div><div class="bar-track"><div class="bar-fill" style="--w:100%;--i:1"></div></div></div></div></div></section><section class="rx-sec reveal "><div class="rx-wrap"><div class="stats"><div class="stat"><div class="num" data-target="90" data-prefix="&gt;" data-suffix="%" data-dec="0">&gt;0%</div><div class="stat-label">concordancia con patólogos expertos</div></div><div class="stat"><div class="num">Segundos</div><div class="stat-label">para analizar una biopsia completa</div></div><div class="stat"><div class="num" data-target="100" data-prefix="" data-suffix="%" data-dec="0">0%</div><div class="stat-label">criterio estable y reproducible</div></div></div></div></section><section class="rx-sec reveal "><div class="rx-wrap"><h2 class="rx-h">Patología manual frente a digital</h2><div class="compare"><div class="cmp cmp-a"><h3>Patología tradicional (manual)</h3><ul><li>Lenta: minutos por lámina.</li><li>Variabilidad alta: depende del patólogo y de la fatiga.</li><li>Decisión individual.</li></ul></div><div class="cmp cmp-b"><h3>Patología digital (visión artificial)</h3><ul><li>Ultrarrápida: segundos por biopsia completa.</li><li>Variabilidad nula: <span class="kw">repetibilidad</span> y estandarización.</li><li>Sistema de asistencia y validación para el patólogo.</li></ul></div></div></div></section><section class="rx-sec reveal "><div class="rx-wrap"><h2 class="rx-h">Metodología</h2><div class="prose"><p>Investigación documental y descriptiva, basada en la revisión sistemática de literatura científica especializada, sin manipulación experimental de variables. Se usaron matrices de registro y fichas de resumen para extraer métricas de precisión, arquitecturas de red y hallazgos.</p></div></div></section><section class="rx-sec reveal "><div class="rx-wrap"><h2 class="rx-h">Conclusiones</h2><div class="prose"><p>La <span class="kw">visión artificial</span> elimina la variabilidad del recuento manual y ofrece datos numéricos reproducibles, reduciendo el margen de error por agotamiento. Los algoritmos actúan como asistentes de alta precisión que fortalecen el rol del médico especialista.</p></div></div></section><section class="rx-sec reveal "><div class="rx-wrap"><h2 class="rx-h">Recomendaciones</h2><ul class="rx-list"><li style="--d:0.00s">Integrar módulos de patología digital e inteligencia artificial en los programas de la Facultad de Medicina.</li><li style="--d:0.08s">Promover ensayos computacionales con muestras de laboratorios y hospitales regionales.</li><li style="--d:0.16s">Investigar la capacidad de adaptación de los modelos ante sesgos de tinción.</li></ul></div></section>
+  <section class="rx-sec"><div class="rx-wrap rx-back"><a class="btn btn-outline" href="../index.html#temas">← Volver a todas las investigaciones</a></div></section>
 </main>
 <footer class="site-footer">
   <div class="container footer-inner">
@@ -31,5 +39,6 @@
     <span>Contenido informativo, no sustituye la consulta médica.</span>
   </div>
 </footer>
+<script src="research.js" defer></script>
 </body>
 </html>

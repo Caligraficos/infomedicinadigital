@@ -36,54 +36,41 @@
     </div>
   </section>
 
-  <section id="temas" class="section">
-    <div class="container">
-      <div class="section-head">
-        <span class="divider"></span>
-        <h2>Investigaciones</h2>
-        <p class="subtitle">Selecciona una investigación para leer su contenido.</p>
+  <section id="temas" class="inv-section">
+  <div class="container">
+    <div class="inv-head">
+      <span class="inv-kicker">Biblioteca de investigaciones</span>
+      <h2>Investigaciones</h2>
+      <p class="subtitle">Estudios de la Facultad de Medicina de la Universidad del Zulia, explicados con claridad.</p>
+    </div>
+    <div class="inv-toolbar">
+      <div class="inv-filters" role="tablist" aria-label="Filtrar por categoría">
+        <button class="inv-chip active" data-filter="all">Todas</button>
+        <button class="inv-chip" data-filter="cuerpo">Cuerpo humano</button>
+        <button class="inv-chip" data-filter="publica">Salud pública</button>
+        <button class="inv-chip" data-filter="tec">Tecnología y ambiente</button>
       </div>
-      <div class="grid grid-3 topics">
-        <a class="topic topic-link" href="investigaciones/consumo-suplementos-proteicos.html">
-          <h3>Consumo de suplementos proteicos</h3>
-          <span class="topic-more">Leer investigación →</span>
-        </a>
-        <a class="topic topic-link" href="investigaciones/ejercicio-ilegal-medicina.html">
-          <h3>Ejercicio ilegal de la medicina</h3>
-          <span class="topic-more">Leer investigación →</span>
-        </a>
-        <a class="topic topic-link" href="investigaciones/estres-estudiantes-medicina-zulia.html">
-          <h3>Incidencia del estrés en la salud física de los estudiantes de 17 a 19 años del primer año de medicina de la Universidad del Zulia</h3>
-          <span class="topic-more">Leer investigación →</span>
-        </a>
-        <a class="topic topic-link" href="investigaciones/vapeo-tejido-pulmonar.html">
-          <h3>Efectos del vapeo (cigarrillo electrónico) en el tejido pulmonar</h3>
-          <span class="topic-more">Leer investigación →</span>
-        </a>
-        <a class="topic topic-link" href="investigaciones/biotecnologia-especies-endemicas.html">
-          <h3>Integración de la biotecnología para la conservación de especies endémicas amenazadas</h3>
-          <span class="topic-more">Leer investigación →</span>
-        </a>
-        <a class="topic topic-link" href="investigaciones/vision-artificial-cancer-mama.html">
-          <h3>Uso de algoritmos de visión artificial para la cuantificación de biomarcadores en el cáncer de mama</h3>
-          <span class="topic-more">Leer investigación →</span>
-        </a>
-        <a class="topic topic-link" href="investigaciones/hipertrofia-muscular.html">
-          <h3>Factores que influyen en la hipertrofia muscular</h3>
-          <span class="topic-more">Leer investigación →</span>
-        </a>
-        <a class="topic topic-link" href="investigaciones/calidad-agua-salud-gastrointestinal.html">
-          <h3>Impacto de la calidad del agua en la salud gastrointestinal de niños escolares</h3>
-          <span class="topic-more">Leer investigación →</span>
-        </a>
-        <a class="topic topic-link" href="investigaciones/envejecimiento-sistema-cardiovascular.html">
-          <h3>Cambios estructurales y funcionales del sistema cardiovascular asociados al envejecimiento</h3>
-          <span class="topic-more">Leer investigación →</span>
-        </a>
-      </div>
-  </section>
+      <label class="inv-search"><span class="sr-only">Buscar</span>
+        <input type="search" id="inv-q" placeholder="Buscar por tema…" autocomplete="off">
+      </label>
+    </div>
+    <p class="inv-count" id="inv-count">Mostrando <strong>9</strong> investigaciones</p>
+    <div class="inv-grid" id="inv-grid">
+      <a class="inv-card" href="investigaciones/consumo-suplementos-proteicos.html" data-cat="cuerpo" data-search="consumo de suplementos proteicos y efectos renales y hepáticos en jóvenes qué ocurre en los riñones y el hígado cuando el consumo de proteína es constante o excesivo." style="--accent:#5f8585;--d:0.00s"><div class="inv-top"><span class="inv-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="8.5" width="19" height="7" rx="3.5" transform="rotate(-40 12 12)"/><path d="M9.2 9.2l5.6 5.6"/></svg></span><span class="inv-num">01</span></div><span class="inv-cat">Cuerpo humano</span><h3>Consumo de suplementos proteicos y efectos renales y hepáticos en jóvenes</h3><p>Qué ocurre en los riñones y el hígado cuando el consumo de proteína es constante o excesivo.</p><span class="inv-more">Leer investigación <span aria-hidden="true">→</span></span></a>
+      <a class="inv-card" href="investigaciones/ejercicio-ilegal-medicina.html" data-cat="publica" data-search="ejercicio ilegal de la medicina en venezuela cómo se manifiestan el curanderismo, la charlatanería, los falsos médicos y el intrusismo, y qué pueden hacer pacientes y profesionales." style="--accent:#9a7457;--d:0.08s"><div class="inv-top"><span class="inv-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7.5 3v5.2c0 4.7-3.2 8.2-7.5 9.8-4.3-1.6-7.5-5.1-7.5-9.8V6L12 3z"/><path d="M12 8.5v4.2M12 15.4v.1"/></svg></span><span class="inv-num">02</span></div><span class="inv-cat">Salud pública</span><h3>Ejercicio ilegal de la medicina en Venezuela</h3><p>Cómo se manifiestan el curanderismo, la charlatanería, los falsos médicos y el intrusismo, y qué pueden hacer pacientes y profesionales.</p><span class="inv-more">Leer investigación <span aria-hidden="true">→</span></span></a>
+      <a class="inv-card" href="investigaciones/estres-estudiantes-medicina-zulia.html" data-cat="publica" data-search="incidencia del estrés en la salud física de los estudiantes de 17 a 19 años del primer año de medicina de la universidad del zulia cómo el estrés académico se refleja en el cuerpo de los estudiantes que inician la carrera de medicina." style="--accent:#9a7457;--d:0.16s"><div class="inv-top"><span class="inv-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12h4l2.2-5 4.1 10 2.3-5h6.4"/></svg></span><span class="inv-num">03</span></div><span class="inv-cat">Salud pública</span><h3>Incidencia del estrés en la salud física de los estudiantes de 17 a 19 años del primer año de Medicina de la Universidad del Zulia</h3><p>Cómo el estrés académico se refleja en el cuerpo de los estudiantes que inician la carrera de Medicina.</p><span class="inv-more">Leer investigación <span aria-hidden="true">→</span></span></a>
+      <a class="inv-card" href="investigaciones/vapeo-tejido-pulmonar.html" data-cat="cuerpo" data-search="efectos del vapeo (cigarrillo electrónico) en el tejido pulmonar qué le ocurre a los pulmones cuando se inhala el aerosol de un cigarrillo electrónico, desde la célula hasta la enfermedad." style="--accent:#5f8585;--d:0.24s"><div class="inv-top"><span class="inv-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8.5h10.5a2.8 2.8 0 1 0-2.8-2.8"/><path d="M3 12.5h14.5a2.8 2.8 0 1 1-2.8 2.8"/><path d="M3 16.5h6"/></svg></span><span class="inv-num">04</span></div><span class="inv-cat">Cuerpo humano</span><h3>Efectos del vapeo (cigarrillo electrónico) en el tejido pulmonar</h3><p>Qué le ocurre a los pulmones cuando se inhala el aerosol de un cigarrillo electrónico, desde la célula hasta la enfermedad.</p><span class="inv-more">Leer investigación <span aria-hidden="true">→</span></span></a>
+      <a class="inv-card" href="investigaciones/biotecnologia-especies-endemicas.html" data-cat="tec" data-search="integración de la biotecnología para la conservación de especies endémicas amenazadas herramientas biológicas y moleculares para proteger la biodiversidad: qué ofrecen, qué limitan y qué falta para aplicarlas." style="--accent:#5d739a;--d:0.32s"><div class="inv-top"><span class="inv-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8.5 5.5-13.5 14-14 .2 8.5-5 14-14 14z"/><path d="M5 19l7.5-7.5"/></svg></span><span class="inv-num">05</span></div><span class="inv-cat">Tecnología y ambiente</span><h3>Integración de la biotecnología para la conservación de especies endémicas amenazadas</h3><p>Herramientas biológicas y moleculares para proteger la biodiversidad: qué ofrecen, qué limitan y qué falta para aplicarlas.</p><span class="inv-more">Leer investigación <span aria-hidden="true">→</span></span></a>
+      <a class="inv-card" href="investigaciones/vision-artificial-cancer-mama.html" data-cat="tec" data-search="uso de algoritmos de visión artificial para la cuantificación de biomarcadores en el cáncer de mama cómo la inteligencia artificial puede contar células de una biopsia con la misma precisión cada vez, en segundos." style="--accent:#5d739a;--d:0.40s"><div class="inv-top"><span class="inv-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.2 10-6.2S22 12 22 12s-3.6 6.2-10 6.2S2 12 2 12z"/><circle cx="12" cy="12" r="2.9"/></svg></span><span class="inv-num">06</span></div><span class="inv-cat">Tecnología y ambiente</span><h3>Uso de algoritmos de visión artificial para la cuantificación de biomarcadores en el cáncer de mama</h3><p>Cómo la inteligencia artificial puede contar células de una biopsia con la misma precisión cada vez, en segundos.</p><span class="inv-more">Leer investigación <span aria-hidden="true">→</span></span></a>
+      <a class="inv-card" href="investigaciones/hipertrofia-muscular.html" data-cat="cuerpo" data-search="factores que influyen en la hipertrofia muscular por qué crecen los músculos: entrenamiento, nutrición, descanso, hormonas y genética trabajando juntos." style="--accent:#5f8585;--d:0.48s"><div class="inv-top"><span class="inv-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 6.5v11M17.5 6.5v11M3.5 9.5v5M20.5 9.5v5M6.5 12h11"/></svg></span><span class="inv-num">07</span></div><span class="inv-cat">Cuerpo humano</span><h3>Factores que influyen en la hipertrofia muscular</h3><p>Por qué crecen los músculos: entrenamiento, nutrición, descanso, hormonas y genética trabajando juntos.</p><span class="inv-more">Leer investigación <span aria-hidden="true">→</span></span></a>
+      <a class="inv-card" href="investigaciones/calidad-agua-salud-gastrointestinal.html" data-cat="publica" data-search="impacto de la calidad del agua en la salud gastrointestinal de niños escolares cuando el agua no tiene cloro residual ni control microbiológico, la salud digestiva de los escolares se resiente." style="--accent:#9a7457;--d:0.56s"><div class="inv-top"><span class="inv-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2s6.2 6.4 6.2 10.8a6.2 6.2 0 0 1-12.4 0C5.8 9.6 12 3.2 12 3.2z"/><path d="M9.2 14.2a2.9 2.9 0 0 0 2.8 2.6"/></svg></span><span class="inv-num">08</span></div><span class="inv-cat">Salud pública</span><h3>Impacto de la calidad del agua en la salud gastrointestinal de niños escolares</h3><p>Cuando el agua no tiene cloro residual ni control microbiológico, la salud digestiva de los escolares se resiente.</p><span class="inv-more">Leer investigación <span aria-hidden="true">→</span></span></a>
+      <a class="inv-card" href="investigaciones/envejecimiento-sistema-cardiovascular.html" data-cat="cuerpo" data-search="cambios estructurales y funcionales del sistema cardiovascular asociados al envejecimiento cómo envejecen el corazón y las arterias, y por qué disminuye la reserva fisiológica aunque en reposo todo parezca estar bien." style="--accent:#5f8585;--d:0.64s"><div class="inv-top"><span class="inv-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.6-9.4A5.2 5.2 0 0 1 12 6.6a5.2 5.2 0 0 1 9.6 4.5c-2.1 4.8-9.6 9.4-9.6 9.4z"/></svg></span><span class="inv-num">09</span></div><span class="inv-cat">Cuerpo humano</span><h3>Cambios estructurales y funcionales del sistema cardiovascular asociados al envejecimiento</h3><p>Cómo envejecen el corazón y las arterias, y por qué disminuye la reserva fisiológica aunque en reposo todo parezca estar bien.</p><span class="inv-more">Leer investigación <span aria-hidden="true">→</span></span></a>
+    </div>
+    <p class="inv-empty" id="inv-empty" hidden>No encontramos investigaciones con ese filtro.</p>
+  </div>
+</section>
 
-  <section id="destacados" class="section section-alt">
+<section id="destacados" class="section section-alt">
     <div class="container">
       <div class="section-head section-head-row">
         <h2>Destacados</h2>
@@ -176,5 +163,62 @@
   </div>
 </footer>
 
+<script id="inv-script">
+(function () {
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.inv-card'));
+  var chips = document.querySelectorAll('.inv-chip');
+  var q = document.getElementById('inv-q');
+  var count = document.getElementById('inv-count');
+  var empty = document.getElementById('inv-empty');
+  var grid = document.getElementById('inv-grid');
+  var filter = 'all';
+
+  function apply() {
+    var term = (q.value || '').trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (c) {
+      var ok = (filter === 'all' || c.dataset.cat === filter) && (!term || c.dataset.search.indexOf(term) !== -1);
+      c.classList.toggle('is-hidden', !ok);
+      if (ok) {
+        shown++;
+        c.classList.remove('pop'); void c.offsetWidth; c.classList.add('pop');
+      }
+    });
+    count.innerHTML = 'Mostrando <strong>' + shown + '</strong> ' + (shown === 1 ? 'investigación' : 'investigaciones');
+    empty.hidden = shown !== 0;
+  }
+
+  chips.forEach(function (ch) {
+    ch.addEventListener('click', function () {
+      filter = ch.dataset.filter;
+      chips.forEach(function (x) { x.classList.toggle('active', x === ch); });
+      apply();
+    });
+  });
+  q.addEventListener('input', apply);
+
+  // Brillo que sigue al cursor
+  cards.forEach(function (c) {
+    c.addEventListener('pointermove', function (e) {
+      var r = c.getBoundingClientRect();
+      c.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+      c.style.setProperty('--my', (e.clientY - r.top) + 'px');
+    });
+  });
+
+  // Entrada escalonada al hacer scroll
+  if (reduce || !('IntersectionObserver' in window)) {
+    cards.forEach(function (c) { c.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    cards.forEach(function (c) { io.observe(c); });
+  }
+})();
+</script>
 </body>
 </html>

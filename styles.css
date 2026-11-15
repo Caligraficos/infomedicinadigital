@@ -65,7 +65,23 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   margin-bottom: 20px;
 }
-.hero-text p { color: var(--muted); max-width: 440px; margin: 0 auto; }
+.hero-sub {
+  color: var(--muted);
+  max-width: 540px;
+  margin: 0 auto;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  text-wrap: balance;
+}
+.hero-kicker {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--teal-dark);
+}
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
 .hero-media { position: relative; }
 .hero-placeholder {

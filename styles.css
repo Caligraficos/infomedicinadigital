@@ -290,3 +290,7 @@ img { max-width: 100%; display: block; }
 .share-text { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
 .qr-svg { width: 64px; height: 64px; display: block; border-radius: 8px; background: #fff; padding: 5px; box-sizing: content-box; border: 1px solid var(--line); opacity: 0.92; transition: opacity 0.3s ease, transform 0.3s ease; }
 .qr-svg:hover { opacity: 1; transform: translateY(-2px); }
+
+/* Franja de visitas y compartir dentro de la cabecera */
+.share-strip-top { padding: 0 0 14px; border-bottom: 1px solid var(--line); margin-bottom: 14px; }
+.site-header .qr-svg { width: 56px; height: 56px; }

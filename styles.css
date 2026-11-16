@@ -52,6 +52,7 @@ img { max-width: 100%; display: block; }
 
 /* Hero */
 .hero {
+  position: relative;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -294,3 +295,9 @@ img { max-width: 100%; display: block; }
 /* Franja de visitas y compartir dentro de la cabecera */
 .share-strip-top { padding: 0 0 14px; border-bottom: 1px solid var(--line); margin-bottom: 14px; }
 .site-header .qr-svg { width: 56px; height: 56px; }
+
+/* Franja de visitas y QR sobre la imagen de fondo, al pie de la portada */
+.share-strip-hero { position: absolute; left: 0; right: 0; bottom: 36px; padding: 0; margin: 0; border: 0; }
+.share-strip-hero .share-inner { align-items: flex-end; }
+.share-strip-hero .visit img { height: 24px; }
+.share-strip-hero .share-text { color: #1f2a2a; }

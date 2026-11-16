@@ -281,3 +281,12 @@ img { max-width: 100%; display: block; }
   .inv-card { opacity: 1 !important; transform: none !important; transition: none !important; }
   .inv-card.pop { animation: none; }
 }
+
+/* Franja de visitas y compartir */
+.share-strip { padding: 26px 0 8px; background: transparent; }
+.share-inner { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+.visit img { display: block; height: 22px; width: auto; opacity: 0.85; }
+.share { display: flex; align-items: center; gap: 12px; }
+.share-text { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.qr-svg { width: 64px; height: 64px; display: block; border-radius: 8px; background: #fff; padding: 5px; box-sizing: content-box; border: 1px solid var(--line); opacity: 0.92; transition: opacity 0.3s ease, transform 0.3s ease; }
+.qr-svg:hover { opacity: 1; transform: translateY(-2px); }
